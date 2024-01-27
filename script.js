@@ -15,7 +15,7 @@ const getRate = async () => {
   const fromCurr = currencyFrom.value;
   const toCurr = currencyTo.value;
 
-  const apiKey = "660f774831-5bf721f12f-s7x04j";
+  const apiKey = "Your Api Key";
 
   const options = {
     method: "GET",
