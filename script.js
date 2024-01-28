@@ -12,7 +12,7 @@ const convertmoneyRes = (data, sign) => {
 const getRate = async () => {
   const amount = Amount.value;
 
-  const fromCurr = currencyFrom.value;
+  const fromCurr = currencyFrom.value;  //Accessing the value of option in select
   const toCurr = currencyTo.value;
 
   const apiKey = "Your Api Key";
